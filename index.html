@@ -1,22 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 - Proteja a Lavoura</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Campo e Cidade Conectados</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Agrinho 2026 - Proteja a Lavoura!</h1>
-    <div id="game-container">
-        <div id="player"></div>
-        <div class="item" id="good-item"></div>
-        <div class="item" id="bad-item"></div>
+
+<div class="container">
+    <header>
+        <h1>🌱 Agrinho 2026</h1>
+        <h2>Campo e Cidade Conectados</h2>
+    </header>
+
+    <div class="painel">
+        <div>Pontos: <span id="score">0</span></div>
+        <div>Tempo: <span id="timer">60</span>s</div>
+        <div>Vidas: <span id="lives">3</span></div>
     </div>
-    <div id="score-board">
-        <p>Pontos: <span id="score">0</span></p>
-        <p>Tempo: <span id="time">30</span>s</p>
+
+    <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+    <div class="controls">
+        <button id="startBtn">Iniciar Jogo</button>
     </div>
-    <script src="script.js"></script>
+
+    <div id="message"></div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
