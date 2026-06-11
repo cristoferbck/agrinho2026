@@ -19,7 +19,7 @@ const player = {
     y: 420,
     width: 50,
     height: 50,
-    speed: 100
+    speed: 1000
 };
 
 const keys = {};
