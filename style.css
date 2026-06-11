@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #dfffd6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #2e7d32;
+}
+
+#game-container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #a8e6cf;
+    border: 3px solid #2e7d32;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff6f61;
+    bottom: 0;
+    left: 225px;
+    border-radius: 50%;
+}
+
+.item {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#good-item {
+    background-color: #ffd700; /* fruta saudável */
+}
+
+#bad-item {
+    background-color: #8b0000; /* praga/lixo */
+}
+
+#score-board {
+    font-size: 20px;
+    color: #2e7d32;
+}
