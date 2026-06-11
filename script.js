@@ -175,7 +175,7 @@ function startGame(){
 
     score = 0;
     lives = 3;
-    timeLeft = 200;
+    timeLeft = 60;
 
     items.length = 0;
 
