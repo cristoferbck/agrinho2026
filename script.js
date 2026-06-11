@@ -19,7 +19,7 @@ const player = {
     y: 420,
     width: 50,
     height: 50,
-    speed: 8
+    speed: 20
 };
 
 const keys = {};
@@ -175,7 +175,7 @@ function startGame(){
 
     score = 0;
     lives = 3;
-    timeLeft = 60;
+    timeLeft = 200;
 
     items.length = 0;
 
